@@ -1,3 +1,12 @@
+
+function showProject() {
+	document.getElementById("project-overlay").style.display = "block";
+}
+
+function hideProject() {
+	document.getElementById("project-overlay").style.display = "none";
+}
+
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 };

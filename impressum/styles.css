@@ -41,29 +41,69 @@ body {
 }
 
 /* NAVIGATION */
-header a {
-  text-decoration: none;
-  padding: 5px;
+
+.logo {
+	position: absolute;
+	left: 0;
+	margin-left: 3em;
+	top: 3em;
+	z-index: 1000;
 }
 
-header img {
-	cursor: pointer;
+.navigation {
+	position: absolute;
+	right: 0;
+	margin-right: 3em;
+	top: 4em;
+	text-align: right;
+	z-index: 1001;
 }
 
-header {
-  padding: 0 30px;
-  background-color: rgba(255,255,255,1);
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
+.navigation nav {
+	display: inline-block;
 }
 
-header ul {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.navigation a {
+	text-decoration: none;
+	color: #000;
+}
+
+.navigation ul {
+	list-style: none;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 5px 15px;
+}
+
+.navigation li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+header .cover img {
+	max-height: 100%;
+	max-width: 100%;
+	position: relative;
+	top: 0;
+}
+
+.cover-text {
+	text-align: center;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	width: 100%;
+}
+
+.cover-text h1 {
+	font-size: 6em;
+}
+
+.cover-text h2 {
+	font-size: 2.2em;
+	opacity: 0.8;
 }
 
 .sticky {
@@ -72,20 +112,6 @@ header ul {
 	width: 100%;
   background-color: rgba(255,255,255,1);
   z-index: 100;
-}
-
-header ul a {
-  color: black;
-}
-
-header ul li {
-  padding: 5px;
-  margin-left: 10px;
-}
-
-header ul li:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
 }
 
 #hamburger-icon {
@@ -144,9 +170,23 @@ header ul li:hover {
 }
 
 /* BODY */
+.catchText {
+	margin-top: 100px;
+	margin-left: 35em;
+	margin-right: 35em;
+	height: 200px;
+}
+
+.catchText p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 500;
+}
+
 .projects-wrapper {
 	margin-left: 0%;
 	margin-right: 0%;
+	margin-top: 80px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
