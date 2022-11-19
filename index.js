@@ -1,10 +1,14 @@
 
 function showProject() {
 	document.getElementById("project-overlay").style.display = "block";
+	document.getElementById("project-overlay").scrollTop = "0";
+	document.body.style.overflow = "hidden";
 }
 
 function hideProject() {
+	document.body.style.overflow = "auto";
 	document.getElementById("project-overlay").style.display = "none";
+	document.getElementById("projects-wrapper").style.overflow = "hidden";
 }
 
 function toggleMobileMenu(menu) {

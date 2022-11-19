@@ -10,6 +10,7 @@ body {
   background-color: white;
   color: black;
   font-family: "poppins", sans-serif;
+  overflow: "visible";
 }
 
 /* BANNER */
