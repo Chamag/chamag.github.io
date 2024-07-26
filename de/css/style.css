@@ -6,12 +6,6 @@
   src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'opensanssb';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
-}
-@font-face {
   font-family: 'opensansb';
   font-style: normal;
   font-weight: 600;
@@ -30,7 +24,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: opensans;
+  font-family: arial;
   background: var(--primary-color);
   color: var(--font-color);
   -webkit-overflow-scrolling: touch;
