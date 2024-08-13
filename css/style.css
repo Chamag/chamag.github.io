@@ -6,12 +6,6 @@
   src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'opensanssb';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
-}
-@font-face {
   font-family: 'opensansb';
   font-style: normal;
   font-weight: 600;
@@ -30,7 +24,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: opensans;
+  font-family: arial;
   background: var(--primary-color);
   color: var(--font-color);
   -webkit-overflow-scrolling: touch;
@@ -98,6 +92,40 @@ header .inside {
   -ms-transform: rotate(-45deg) translate(-6px, 6px);
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
+}
+
+/*~~~ LANGUAGE SWITCH ~~~*/
+.switch {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+}
+.switch > span {
+  position: absolute;
+  top: 14px;
+  pointer-events: none;
+  font-family: opensansb;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+  width: 50%;
+  text-align: center;
+}
+input.check-toggle-round-flat:checked ~ .off {
+  color: #F36F25;
+}
+input.check-toggle-round-flat:checked ~ .on {
+  color: #FFF;
+}
+.switch > span.on {
+  left: 0;
+  padding-left: 2px;
+  color: #F36F25
+}
+.switch > span.off {
+  left: 0;
+  padding-left: 4px;
+  color: #FFF
 }
 
 /*~~~ MOBILE NAVIGATION ~~~*/
