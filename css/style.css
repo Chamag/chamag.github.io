@@ -132,10 +132,12 @@ header .inside {
 }
 .DE {
   text-transform: uppercase;
+  font-family: opensansb;
   color: #333;
 }
 .EN {
   text-transform: uppercase;
+  font-family: opensansb;
   color: #53753c;
 }
 
@@ -153,13 +155,12 @@ header .inside {
 
 /*~~~ HERO SECTION ~~~*/
 .hero-section {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 .hero-section img {
-  position: absolute;
+  position: relative;
   width: 100%;
   object-fit: cover;
-  left: 0;
 }
 .hero-section p {
   text-align: left;
