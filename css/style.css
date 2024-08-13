@@ -130,6 +130,12 @@ header .inside {
   left: 12px;
   border: 2px solid #53753c;
 }
+.check:checked ~ .textDE {
+  display: none;
+}
+.check:checked ~ .textEN {
+  display: block;
+}
 .DE {
   text-transform: uppercase;
   font-family: opensansb;
