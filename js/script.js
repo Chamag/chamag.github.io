@@ -40,7 +40,7 @@ function toggleLanguage() {
     var checkBox = document.getElementById("check");
     let texten = document.getElementsByClassName("textEN");
     let textde = document.getElementsByClassName("textDE");
-    if (checkBox.checked = true) {
+    if (checkBox.checked == true) {
         for (let i = 0; i < texten.length; i++) {
             texten[i].style.display = "block";
             textde[i].style.display = "none";
