@@ -98,12 +98,6 @@ header .inside {
 .switch {
   padding: 0 10px;
 }
-.text {
-  display: none;
-}
-.text.textDE {
-  display: block;
-}
 .check {
   position: relative;
   width: 30px;
@@ -136,11 +130,11 @@ header .inside {
   left: 12px;
   border: 2px solid #53753c;
 }
-.check:checked .textDE {
-  display: none;
-}
-.check:checked .textEN {
+.textDE {
   display: block;
+}
+.textEN {
+  display: none;
 }
 .DE {
   text-transform: uppercase;
