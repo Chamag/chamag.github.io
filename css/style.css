@@ -127,6 +127,27 @@ input.check-toggle-round-flat:checked ~ .on {
   padding-left: 4px;
   color: #FFF
 }
+.check-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.check-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+input.check-toggle-round-flat + label {
+  padding: 2px;
+  width: 97px;
+  height: 35px;
+  background-color: #F36F25;
+  border-radius: 60px;
+}
 
 /*~~~ MOBILE NAVIGATION ~~~*/
 #mobile-nav {
