@@ -42,13 +42,13 @@ function toggleLanguage() {
     let textde = document.getElementsByClassName("textDE");
     if (checkBox.checked = true) {
         for (let i = 0; i < texten.length; i++) {
-            texten[i].style.display = block;
-            textde[i].style.display = none;
+            texten[i].style.display = "block";
+            textde[i].style.display = "none";
         }
     } else {
         for (let i = 0; i < texten.length; i++) {
-            texten[i].style.display = none;
-            textde[i].style.display = block;
+            texten[i].style.display = "none";
+            textde[i].style.display = "block";
         }
     }
     
