@@ -109,7 +109,7 @@ header .inside {
   border-radius: 25px;
 }
 .check:checked::before {
-  background: #717171;
+  background: #53753c;
 }
 .check::after {
   content: "";
@@ -125,7 +125,7 @@ header .inside {
 }
 .check:checked::after {
   left: 12px;
-  border: 2px solid #e0dd1b;
+  border: 2px solid #53753c;
 }
 .DE {
   text-transform: uppercase;
@@ -133,7 +133,7 @@ header .inside {
 }
 .EN {
   text-transform: uppercase;
-  color: #717171;
+  color: #53753c;
 }
 
 /*~~~ MOBILE NAVIGATION ~~~*/
