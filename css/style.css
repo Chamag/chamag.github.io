@@ -98,12 +98,12 @@ header .inside {
 .switch {
   padding: 0 10px;
 }
-.check {
+#check {
   position: relative;
   width: 30px;
   cursor: pointer;
 }
-.check::before {
+#check::before {
   position: absolute;
   content: "";
   width: 25px;
@@ -111,10 +111,10 @@ header .inside {
   background: #333;
   border-radius: 25px;
 }
-.check:checked::before {
+#check:checked::before {
   background: #53753c;
 }
-.check::after {
+#check::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -126,7 +126,7 @@ header .inside {
   border: 2px solid #333;
   box-sizing: border-box;
 }
-.check:checked::after {
+#check:checked::after {
   left: 12px;
   border: 2px solid #53753c;
 }

@@ -37,8 +37,9 @@ function collapseInfo4(collapsible) {
 }
 
 function toggleLanguage() {
-    let texten = document.getElementsByClassName("textEN")
-    let textde = document.getElementsByClassName("textDE")
+    var checkBox = document.getElementById("check");
+    let texten = document.getElementsByClassName("textEN");
+    let textde = document.getElementsByClassName("textDE");
     for (let i = 0; i < texten.length; i++) {
         texten[i].style.display = block;
         textde[i].style.display = none;
