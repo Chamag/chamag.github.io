@@ -155,7 +155,11 @@ header .inside {
 .hero-section {
   padding: 0 10px;
 }
-
+.hero-section img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
 .hero-section p {
   text-align: left;
 }
