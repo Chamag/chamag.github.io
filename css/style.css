@@ -127,6 +127,14 @@ header .inside {
   left: 12px;
   border: 2px solid #e0dd1b;
 }
+.DE {
+  text-transform: uppercase;
+  color: #333;
+}
+.IT {
+  text-transform: uppercase;
+  color: #e0dd1b;
+}
 
 /*~~~ MOBILE NAVIGATION ~~~*/
 #mobile-nav {
