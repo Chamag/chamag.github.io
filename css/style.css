@@ -95,6 +95,9 @@ header .inside {
 }
 
 /*~~~ LANGUAGE SWITCH ~~~*/
+.switch {
+  padding: 0 10px;
+}
 .check {
   position: relative;
   width: 30px;
