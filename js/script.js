@@ -40,10 +40,18 @@ function toggleLanguage() {
     var checkBox = document.getElementById("check");
     let texten = document.getElementsByClassName("textEN");
     let textde = document.getElementsByClassName("textDE");
-    for (let i = 0; i < texten.length; i++) {
-        texten[i].style.display = block;
-        textde[i].style.display = none;
+    if (checkBox.checked = true) {
+        for (let i = 0; i < texten.length; i++) {
+            texten[i].style.display = block;
+            textde[i].style.display = none;
+        }
+    } else {
+        for (let i = 0; i < texten.length; i++) {
+            texten[i].style.display = none;
+            textde[i].style.display = block;
+        }
     }
+    
 }
 
 function scrollActions() {
