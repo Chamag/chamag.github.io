@@ -148,8 +148,7 @@ input.check-toggle-round-flat + label {
   background-color: #F36F25;
   border-radius: 60px;
 }
-input.check-toggle-round-flat + label:before,
-input.check-toggle-round-flat + label:after {
+input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
   display: block;
   position: absolute;
   content: "";
@@ -175,7 +174,6 @@ input.check-toggle-round-flat + label:after {
   transition: margin 0.2s;
 }
 input.check-toggle-round-flat:checked + label {
-  
 }
 input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
