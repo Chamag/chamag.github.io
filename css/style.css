@@ -106,7 +106,7 @@ header .inside {
   width: 25px;
   height: 15px;
   background: #333;
-  border-radius: 25x;
+  border-radius: 25px;
 }
 .check:checked::before {
   background: #e0dd1b;
