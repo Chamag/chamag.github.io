@@ -314,7 +314,7 @@ header .inside {
 @media (min-width: 768px) {
   #header-title { padding: 0 40px; }
   .switch { padding: 0 40px;}
-  .hero-section { padding: 50px 20vw 0 40px; }
+  .hero-section { padding: 50px 40px 0 40px; }
   .service { padding: 20px 40px 30px 40px; }
   .more-button { padding: 4px 0 8px 0;}
   .additional-content { padding: 10px 0; }
