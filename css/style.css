@@ -313,7 +313,7 @@ header .inside {
 
 @media (min-width: 768px) {
   #header-title { padding: 0 40px; }
-  .hero-section { padding: 50px 50vw 0 40px; }
+  .hero-section { padding: 50px 20vw 0 40px; }
   .service { padding: 20px 40px 30px 40px; }
   .more-button { padding: 4px 0 8px 0;}
   .additional-content { padding: 10px 0; }
@@ -321,7 +321,7 @@ header .inside {
 
 @media (min-width: 1024px) {
   #header-title { padding: 0 15vw; }
-  .hero-section { padding: 50px 50vw 0 15vw; }
+  .hero-section { padding: 50px 20vw 0 15vw; }
   .service { padding: 20px 15vw 30px 15vw; }
   .service-title img { height: 165px; min-width: 330px;}
   .about img { min-width: 165px; min-height: 165px; }
@@ -337,7 +337,7 @@ header .inside {
 
 @media (min-width: 1300px) {
   #header-title { padding: 0 20vw; }
-  .hero-section { padding: 50px 50vw 0 20vw; }
+  .hero-section { padding: 50px 20vw 0 20vw; }
   .service { padding: 20px 20vw 30px 20vw; }
   /*.editorial { padding: 20px 0 30px 20vw; }
   .translation { padding: 20px 20vw 30px 0; }*/
