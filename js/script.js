@@ -50,8 +50,7 @@ function toggleLanguage() {
             texten[i].style.display = "none";
             textde[i].style.display = "block";
         }
-    }
-    
+    }    
 }
 
 function scrollActions() {
