@@ -80,35 +80,6 @@ header {
   color: #6B7280;
 }
 
-/*~~~ HAMBURGER ICON ~~~*/
-#hamburger-icon {
-  padding: .5rem 1rem;
-}
-#hamburger-icon div {
-  width: 35px;
-  height: 3px;
-  background-color: var(--secondary-color);
-  margin: 6px 0;
-  transition: 0.4s;
-  border-radius: 40px;
-}
-#bar1, #bar2, #bar3 {
-  background-color: rgb(0, 0, 0);
-}
-.open #bar1 {
-  -ms-transform: rotate(-45deg) translate(-6px, 6px);
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-.open #bar2 {
-  opacity: 0;
-}
-.open #bar3 {
-  -ms-transform: rotate(-45deg) translate(-6px, 6px);
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
-}
-
 /*~~~ LANGUAGE SWITCH ~~~*/
 .switch {
   padding: 0 10px;
