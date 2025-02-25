@@ -35,6 +35,10 @@ p {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   font-family: opensansb;
 }
@@ -80,9 +84,6 @@ header {
 }
 
 /*~~~ LANGUAGE SWITCH ~~~*/
-.switch {
-  padding: 0 10px;
-}
 #check {
   position: relative;
   width: 30px;
@@ -299,7 +300,6 @@ header {
 @media (min-width: 640px) {
   .navigation { padding-left: 1.5rem; padding-right: 1.5rem; }
   .nav-categories { display: flex; margin-left: 2rem; }
-  .switch { padding: 0 40px;}
   .hero-section { padding: 100px 40px 100px 40px; }
   .service { padding: 20px 40px 30px 40px; }
   .more-button { padding: 4px 0 8px 0;}
@@ -308,7 +308,6 @@ header {
 
 @media (min-width: 1024px) {
   .navigation { padding-left: 2rem; padding-right: 2rem; }
-  .switch { padding: 0 15vw;}
   .hero-section { padding: 100px 15vw 100px 15vw; }
   .service { padding: 20px 15vw 30px 15vw; }
   .service-title img { height: 165px; min-width: 330px;}
@@ -324,7 +323,6 @@ header {
 }
 
 @media (min-width: 1300px) {
-  .switch { padding: 0 20vw;}
   .hero-section { padding: 100px 20vw 100px 20vw; }
   .service { padding: 20px 20vw 30px 20vw; }
   /*.editorial { padding: 20px 0 30px 20vw; }
